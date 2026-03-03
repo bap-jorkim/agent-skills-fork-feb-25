@@ -57,6 +57,16 @@ python3 scripts/ga4_query.py --metric sessions --dimension pagePath --start 2026
 python3 scripts/ga4_query.py --metric screenPageViews --dimension pagePath --filter "pagePath=~/blog/"
 ```
 
+### Device Breakdown
+```bash
+python3 scripts/ga4_query.py --metrics sessions,totalUsers --dimension deviceCategory
+```
+
+### Country-level Traffic
+```bash
+python3 scripts/ga4_query.py --metric sessions --dimension country --limit 15
+```
+
 ## Available Metrics
 
 Common metrics: `screenPageViews`, `sessions`, `totalUsers`, `newUsers`, `activeUsers`, `bounceRate`, `averageSessionDuration`, `conversions`, `eventCount`

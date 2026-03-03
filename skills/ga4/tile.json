@@ -1,0 +1,11 @@
+{
+  "name": "clean-test-workspace/ga4",
+  "version": "0.1.0",
+  "private": false,
+  "summary": "Query Google Analytics 4 (GA4) data via the Analytics Data API. Use when you need to pull website analytics like top pages, traffic sources, user counts, sessions, conversions, or any GA4 metrics/dimensions. Supports custom date ranges and filtering.",
+  "skills": {
+    "ga4": {
+      "path": "SKILL.md"
+    }
+  }
+}
